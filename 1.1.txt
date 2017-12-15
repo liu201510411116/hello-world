@@ -1,0 +1,14 @@
+#include "stdio.h"
+int main()
+{float x,y;
+ scanf("%f",&x);
+ if(x<-20)
+ y=0.55*x;
+ else
+ if(x<=20)
+ y=0.45*x+3.8;
+ else
+ y=1.6*x-8;
+ printf("f(%f)=%f\n",x,y); 
+
+}
